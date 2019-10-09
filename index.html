@@ -114,31 +114,25 @@ ul li {
 }
 
 .desc li:nth-child(1) {
-    color: red;
     margin-right: 25%;
 }
 
 .desc li:nth-child(2) {
-    color: red;
     margin-right: 15%;
 }
 
 .desc li:nth-child(3) {
-    color: red;
     margin-right: 17%;
 }
 
 .mobile li:nth-child(1) {
-    color: green;
     margin-right: 20%;
 }
 .mobile li:nth-child(2) {
-    color: green;
     margin-right: 17%;
 }
 
 .mobile li:nth-child(3) {
-    color: green;
     margin-right: 13%;
 }
 .total li:nth-child(1), .tax li:nth-child(1), .discount li:nth-child(1){
@@ -292,6 +286,10 @@ nav {
     height: 30px;
     /*display: inline-block;*/
 }
+
+.ggh {
+    float: right;
+}
 </style>
 </head>
 <body>
@@ -300,7 +298,7 @@ nav {
         <p class="forward"><a href="#">&#10094</a></p>
         <p id="save">Save and close</p>
         <p class="headertext">Invoice</p>
-        <input type="button" name="" id="send" value="Send Invoice" disabled="disabled">
+        <input type="button" name="" id="send" value="Send Invoice">
     </nav>
     <nav class="nav2">
         <p class="cancel2"></p>
@@ -313,8 +311,8 @@ nav {
     
 
     <main>
-        <textarea class="edit" readonly>edit branding</textarea><br>
-        <div class="garki"><textarea readonly>garki</textarea>
+        <textarea class="edit">edit branding</textarea><br>
+        <div class="garki"><textarea>Glacier Inc</textarea>
             <!-- <textarea readonly>hhhhh</textarea> -->
             <div class="map">
                 <p class="amountdue">Amount Due</p>
